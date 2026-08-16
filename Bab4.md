@@ -830,7 +830,7 @@ find / -xdev -nouser 2>/dev/null
 
 # --- shell history ---
 cat ~/.bash_history
-ls -la ~/.bash_history                              # cek symlink ke /dev/null
+ls -la ~/.bash_history                             # cek symlink ke /dev/null
 
 # --- other CLI history ---
 ls -la ~/.viminfo ~/.mysql_history ~/.psql_history ~/.python_history 2>/dev/null
